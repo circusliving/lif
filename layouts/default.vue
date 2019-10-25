@@ -1,147 +1,19 @@
 <template>
   <div>
     <main class="wrapper">
-      <nav class="navigation">
-        <section class="container">
-          <a class="navigation-title" href="https://milligram.github.io/">
-            <svg class="img" version="1.1" viewBox="0 0 463 669">
-              <g transform="translate(0.000000,669.000000) scale(0.100000,-0.100000)">
-                <path
-                  d="M2303 6677c-11-13-58-89-393-627-128-206-247-397-265-425-18-27-85-135-150-240-65-104-281-451-480-770-358-575-604-970-641-1032-10-18-45-74-76-126-47-78-106-194-107-212-1-3-11-26-24-53-60-118-132-406-157-623-19-158-8-491 20-649 82-462 291-872 619-1213 192-199 387-340 646-467 335-165 638-235 1020-235 382 0 685 70 1020 235 259 127 454 268 646 467 328 341 537 751 619 1213 28 158 39 491 20 649-25 217-97 505-157 623-13 27-23 50-23 53 0 16-57 127-107 210-32 52-67 110-77 128-37 62-283 457-641 1032-199 319-415 666-480 770-65 105-132 213-150 240-18 28-137 219-265 425-354 570-393 630-400 635-4 3-12-1-17-8zm138-904c118-191 654-1050 1214-1948 148-236 271-440 273-452 2-13 8-23 11-23 14 0 72-99 125-212 92-195 146-384 171-598 116-974-526-1884-1488-2110-868-205-1779 234-2173 1046-253 522-257 1124-10 1659 45 97 108 210 126 225 4 3 9 13 13 22 3 9 126 209 273 445 734 1176 1102 1766 1213 1946 67 108 124 197 126 197 2 0 59-89 126-197zM1080 3228c-75-17-114-67-190-243-91-212-128-368-137-580-34-772 497-1451 1254-1605 77-15 112-18 143-11 155 35 212 213 106 329-32 36-62 48-181 75-223 50-392 140-552 291-115 109-178 192-242 316-101 197-136 355-128 580 3 111 10 167 30 241 30 113 80 237 107 267 11 12 20 26 20 32 0 6 8 22 17 36 26 41 27 99 3 147-54 105-142 149-250 125z"
-                />
-              </g>
-            </svg>
-            &nbsp;
-            <h1 class="title">Líf</h1>
-          </a>
-          <ul class="navigation-list float-right">
-            <li class="navigation-item">
-              <a class="navigation-link" href="#popover-grid" data-popover>Opportunities</a>
-              <div id="popover-grid" class="popover">
-                <ul class="popover-list">
-                  <li class="popover-item">
-                    <a
-                      class="popover-link"
-                      href="#getting-started"
-                      title="Getting Started"
-                    >Getting Started</a>
-                  </li>
-                  <li class="popover-item">
-                    <a class="popover-link" href="#typography" title="Typography">Typography</a>
-                  </li>
-                  <li class="popover-item">
-                    <a class="popover-link" href="#blockquotes" title="Blockquotes">Blockquotes</a>
-                  </li>
-                  <li class="popover-item">
-                    <a class="popover-link" href="#buttons" title="Buttons">Buttons</a>
-                  </li>
-                  <li class="popover-item">
-                    <a class="popover-link" href="#lists" title="Lists">Lists</a>
-                  </li>
-                  <li class="popover-item">
-                    <a class="popover-link" href="#forms" title="Forms">Forms</a>
-                  </li>
-                  <li class="popover-item">
-                    <a class="popover-link" href="#tables" title="Tables">Tables</a>
-                  </li>
-                  <li class="popover-item">
-                    <a class="popover-link" href="#grids" title="Grids">Grids</a>
-                  </li>
-                  <li class="popover-item">
-                    <a class="popover-link" href="#codes" title="Codes">Codes</a>
-                  </li>
-                  <li class="popover-item">
-                    <a class="popover-link" href="#utilities" title="Utilities">Utilities</a>
-                  </li>
-                  <li class="popover-item">
-                    <a class="popover-link" href="#tips" title="Tips">Tips</a>
-                  </li>
-                  <li class="popover-item">
-                    <a
-                      class="popover-link"
-                      href="#browser-support"
-                      title="Browser Support"
-                    >Browser Support</a>
-                  </li>
-                  <li class="popover-item">
-                    <a class="popover-link" href="#examples" title="Examples">Examples</a>
-                  </li>
-                  <li class="popover-item">
-                    <a class="popover-link" href="#contributing" title="Contributing">Contributing</a>
-                  </li>
-                </ul>
-              </div>
-            </li>
-            <li class="navigation-item">
-              <a class="navigation-link" href="#popover-support" data-popover>Profile</a>
-              <div id="popover-support" class="popover">
-                <ul class="popover-list">
-                  <li class="popover-item">
-                    <a
-                      class="popover-link"
-                      target="blank"
-                      href="https://github.com/milligram/milligram"
-                      title="On Github"
-                    >On Github</a>
-                  </li>
-                  <li class="popover-item">
-                    <a
-                      class="popover-link"
-                      target="blank"
-                      href="https://codepen.io/milligramcss"
-                      title="On Codepen"
-                    >On Codepen</a>
-                  </li>
-                  <li class="popover-item">
-                    <a
-                      class="popover-link"
-                      target="blank"
-                      href="https://facebook.com/milligramcss"
-                      title="On Facebook"
-                    >On Facebook</a>
-                  </li>
-                  <li class="popover-item">
-                    <a
-                      class="popover-link"
-                      target="blank"
-                      href="https://twitter.com/milligramcss"
-                      title="On Twitter"
-                    >On Twitter</a>
-                  </li>
-                  <li class="popover-item">
-                    <a
-                      class="popover-link"
-                      target="blank"
-                      href="https://github.com/milligram/milligram/issues/new"
-                      title="Need help?"
-                    >Need help?</a>
-                  </li>
-                  <li class="popover-item">
-                    <a
-                      class="popover-link"
-                      target="blank"
-                      href="https://github.com/milligram/milligram#license"
-                      title="License"
-                    >License</a>
-                  </li>
-                  <li class="popover-item">
-                    <a
-                      class="popover-link"
-                      target="blank"
-                      href="https://github.com/milligram/milligram/releases"
-                      title="Versions"
-                    >Versions</a>
-                  </li>
-                </ul>
-              </div>
-            </li>
-          </ul>
-        </section>
-      </nav>
-    </div>
-    <nuxt />
+      <Header/>
+      <section class="container">
+        <nuxt />
+      </section>
+    </main>
   </div>
 </template>
 
-<style>
-</style>
+<script>
+import Header from '~/components/Header.vue'
+
+export default {
+  components: { Header }
+}
+</script>
+
